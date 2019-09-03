@@ -1,5 +1,5 @@
 # Appium-Test
-Mobile Automaties Testing
+Mobile Automatic Testing
 ##### unittest
 
 
