@@ -24,7 +24,7 @@ def test_case3()
 ##### 两种构造测试集封装
 ###### 实例1：
 这是单独写在test_suite.py里头的，test_suite.py将所有模块的脚本都封装在这里头进行运行及其生成报告，下面是一个demo,这里使用的是```map()```函数进行构建测试集，可以很方便的选择性执行需要的用例，不需要全执行全部测试用例，这样很方便调试。
-```
+```python3
 import unittest
 from test_login import LoginTest
 from test_register import RegisterTest
@@ -38,7 +38,7 @@ if __name__ == '__main__':
 ```
 ###### 实例2：
 不使用```map()```函数，直接封装运行所有的测试用例集。
-```
+```python3
 import unittest
 from test_login import LoginTest
 from test_register import RegisterTest
